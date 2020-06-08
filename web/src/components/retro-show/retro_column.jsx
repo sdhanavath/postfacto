@@ -130,9 +130,8 @@ export default class RetroColumn extends React.Component {
   }
 
   render() {
-    const {category} = this.props;
     return (
-      <div className={'column-' + category}>
+      <div style={ {width : '100%', background: 'green'}}>
         {
           this.renderColumnHeader()
         }

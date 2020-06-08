@@ -421,7 +421,7 @@ class ShowRetroPage extends React.Component {
               showDialog={this.props.showDialog}
               signOut={this.props.signOut}
             />
-            <div className="retro-item-list">
+            <div className="retro-item-list" style={{width:100+"%"}}>
               <RetroColumn
                 category="happy"
                 retro={retro}
@@ -439,40 +439,40 @@ class ShowRetroPage extends React.Component {
                 createRetroActionItem={this.props.createRetroActionItem}
                 extendTimer={this.props.extendTimer}
               />
-              <RetroColumn
-                category="meh"
-                retro={retro}
-                retroId={retroId}
-                archives={archives}
-                isMobile={false}
-                voteRetroItem={this.props.voteRetroItem}
-                doneRetroItem={this.props.doneRetroItem}
-                undoneRetroItem={this.props.undoneRetroItem}
-                highlightRetroItem={this.props.highlightRetroItem}
-                unhighlightRetroItem={this.props.unhighlightRetroItem}
-                updateRetroItem={this.props.updateRetroItem}
-                deleteRetroItem={this.props.deleteRetroItem}
-                createRetroItem={this.props.createRetroItem}
-                createRetroActionItem={this.props.createRetroActionItem}
-                extendTimer={this.props.extendTimer}
-              />
-              <RetroColumn
-                category="sad"
-                retro={retro}
-                retroId={retroId}
-                archives={archives}
-                isMobile={false}
-                voteRetroItem={this.props.voteRetroItem}
-                doneRetroItem={this.props.doneRetroItem}
-                undoneRetroItem={this.props.undoneRetroItem}
-                highlightRetroItem={this.props.highlightRetroItem}
-                unhighlightRetroItem={this.props.unhighlightRetroItem}
-                updateRetroItem={this.props.updateRetroItem}
-                deleteRetroItem={this.props.deleteRetroItem}
-                createRetroItem={this.props.createRetroItem}
-                createRetroActionItem={this.props.createRetroActionItem}
-                extendTimer={this.props.extendTimer}
-              />
+              {/*<RetroColumn*/}
+              {/*  category="meh"*/}
+              {/*  retro={retro}*/}
+              {/*  retroId={retroId}*/}
+              {/*  archives={archives}*/}
+              {/*  isMobile={false}*/}
+              {/*  voteRetroItem={this.props.voteRetroItem}*/}
+              {/*  doneRetroItem={this.props.doneRetroItem}*/}
+              {/*  undoneRetroItem={this.props.undoneRetroItem}*/}
+              {/*  highlightRetroItem={this.props.highlightRetroItem}*/}
+              {/*  unhighlightRetroItem={this.props.unhighlightRetroItem}*/}
+              {/*  updateRetroItem={this.props.updateRetroItem}*/}
+              {/*  deleteRetroItem={this.props.deleteRetroItem}*/}
+              {/*  createRetroItem={this.props.createRetroItem}*/}
+              {/*  createRetroActionItem={this.props.createRetroActionItem}*/}
+              {/*  extendTimer={this.props.extendTimer}*/}
+              {/*/>*/}
+              {/*<RetroColumn*/}
+              {/*  category="sad"*/}
+              {/*  retro={retro}*/}
+              {/*  retroId={retroId}*/}
+              {/*  archives={archives}*/}
+              {/*  isMobile={false}*/}
+              {/*  voteRetroItem={this.props.voteRetroItem}*/}
+              {/*  doneRetroItem={this.props.doneRetroItem}*/}
+              {/*  undoneRetroItem={this.props.undoneRetroItem}*/}
+              {/*  highlightRetroItem={this.props.highlightRetroItem}*/}
+              {/*  unhighlightRetroItem={this.props.unhighlightRetroItem}*/}
+              {/*  updateRetroItem={this.props.updateRetroItem}*/}
+              {/*  deleteRetroItem={this.props.deleteRetroItem}*/}
+              {/*  createRetroItem={this.props.createRetroItem}*/}
+              {/*  createRetroActionItem={this.props.createRetroActionItem}*/}
+              {/*  extendTimer={this.props.extendTimer}*/}
+              {/*/>*/}
             </div>
             <RetroActionPanel
               retro={retro}
